@@ -12,17 +12,23 @@ var paths = {
   },
   
   posts: {
+      third_post: {
+      title: '测试',
+      md: 'test.md',
+      published: '2024-12-22 16:12:00',
+      preview: '测试一下.'
+    },
+     second_post: {
+      title: 'I Blogged Again',
+      md: 'blogged_again.md',
+      published: '2015-01-03',
+      preview: 'Oops I did it again.'
+    },
     first_post: {
       title: 'My First Blog Post',
       md: 'first_post.md',
       published: '2015-01-01',
       preview: 'Everyone has to start somewhere.'
-    },
-    second_post: {
-      title: 'I Blogged Again',
-      md: 'blogged_again.md',
-      published: '2015-01-03',
-      preview: 'Oops I did it again.'
     }
   }
 
